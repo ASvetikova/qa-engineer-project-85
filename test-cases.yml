@@ -491,13 +491,13 @@
   requirement: |
     Сайт должен быть удобным на мобильном устройстве
   prerequisites: |
-    Открыта главная страница https://codebattle.hexlet.io/#lobby
+    Пользователь авторизован. Открыта главная страница https://codebattle.hexlet.io/tournaments/#create
   test-data: |
      empty
   steps:
-    - 1. Открыть главную страницу сайта https://codebattle.hexlet.io
+    - 1. Открыть https://codebattle.hexlet.io/tournaments/#create
     - 2. Открыть devtools браузера
-    - 3. Выбрать устройство iPhone 12 Pro, Ipad Mini в адаптивном режиме отображения
+    - 3. Выбрать устройство iPhone 12 Pro, Samsung Galaxy S8+ в адаптивном режиме отображения
   expected-result: |
     - 1. Главная страница открыта
     - 2. Devtools браузера открыт
